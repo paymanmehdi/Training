@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Adhocofupdated"> 
+
+
+<listeners>
+
+<listener class-name="Com.facebook.Auto.Training.App"></listener>
+
+</listeners> 
+
+
+<test name="Rgression">
+
+
+<parameter name="url" value="https://facebook.com"></parameter>
+
+<parameter name="browser" value="chrome"></parameter>
+
+<classes>
+<class name="Run.Home_Site"></class>
+<!--  <class name="Run.Forgot_psswd"></class>-->
+<!--  <class name="Adhoc.ut"></class>-->
+</classes>
+</test>
+<test name="It">
+
+<parameter name="url" value="https://facebook.com"></parameter>
+
+<parameter name="browser" value="firefox"></parameter>
+
+<classes>
+<!--  <class name="Run.Home_Site"></class>-->
+<class name="Run.Forgot_psswd"></class>
+<!--  <class name="Adhoc.ut"></class>-->
+</classes>
+</test>
+</suite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhocofupdated" duration-ms="25137" started-at="2020-02-23T11:37:23 EST" finished-at="2020-02-23T11:37:48 EST">
+    <groups>
+    </groups>
+    <test name="Rgression" duration-ms="17368" started-at="2020-02-23T11:37:23 EST" finished-at="2020-02-23T11:37:40 EST">
+      <class name="Run.Home_Site">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Run.Home_Site@1f36e637]" name="beforeClass" is-config="true" duration-ms="13805" started-at="2020-02-23T11:37:23 EST" finished-at="2020-02-23T11:37:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Run.Home_Site@1f36e637]" name="f" duration-ms="2853" started-at="2020-02-23T11:37:37 EST" finished-at="2020-02-23T11:37:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Run.Home_Site@1f36e637]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-02-23T11:37:40 EST" finished-at="2020-02-23T11:37:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Run.Home_Site -->
+    </test> <!-- Rgression -->
+    <test name="It" duration-ms="7741" started-at="2020-02-23T11:37:40 EST" finished-at="2020-02-23T11:37:48 EST">
+      <class name="Run.Forgot_psswd">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Run.Forgot_psswd@1f554b06]" name="beforeClass" is-config="true" duration-ms="5534" started-at="2020-02-23T11:37:40 EST" finished-at="2020-02-23T11:37:46 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Run.Forgot_psswd@1f554b06]" name="f" duration-ms="1822" started-at="2020-02-23T11:37:46 EST" finished-at="2020-02-23T11:37:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Run.Forgot_psswd@1f554b06]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-23T11:37:48 EST" finished-at="2020-02-23T11:37:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Run.Forgot_psswd -->
+    </test> <!-- It -->
+  </suite> <!-- Adhocofupdated -->
+</testng-results>
